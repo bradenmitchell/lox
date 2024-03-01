@@ -5,4 +5,6 @@
 #include <stddef.h>
 #include <stdint.h>
 
-#endif // _common_h
+#define DEBUG_TRACE_EXECUTION
+
+#endif  // _common_h
