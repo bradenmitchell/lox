@@ -12,7 +12,7 @@ SRC_FILES = $(wildcard $(SRC_DIR)/*.c)
 OBJ_FILES = $(addprefix $(BUILD_DIR)/, $(notdir $(SRC_FILES:.c=.o)))
 
 # Flags
-WFLAGS = -Wall -Wextra -Wshadow
+WFLAGS = -Wall -Wextra -Wshadow -Wno-unused-parameter
 CFLAGS = $(WFLAGS) -g -O0
 
 # Phonies
